@@ -1,0 +1,96 @@
+@font-face {
+  font-family: nicokaku;
+  src: url(../fonts/nicokaku_v1.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-spacing: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-family: 'Source Sans Pro', monospace, sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+#wrapper {
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  background-color: black;
+}
+
+#header {
+  float: left;
+  width: 33%;
+  height: 100%;
+  /* background-color: pink; */
+  overflow: hidden;
+  color: black;
+}
+
+#menu-pattern{
+  position: fixed;
+  width: 10%;
+  height: 100%;
+  margin-left: 3%;
+  background-image: url(../pictures/yellow_pattern.png);
+  background-repeat: repeat;
+  background-position: left top;
+  background-attachment: fixed;
+}
+
+#nav {
+  position: fixed;
+  width: 12%;
+  margin-left: 2%;
+
+
+}
+
+#nav li {
+  list-style-type: none;
+  background-color: #F7E71C;
+  text-align: center;
+}
+
+.float-left {
+  width: 100%;
+  float: left;
+  margin-bottom: 10%;
+}
+
+.float-right {
+  width: 100%;
+  float: right;
+  margin-bottom: 10%;
+}
+
+.menu-item {
+
+}
+
+#main {
+  background-color: yellow;
+  overflow-x: hidden;
+}
+
+#pictures {
+  background-color: blue;
+}
+
+#text {
+  background-color: red;
+  color: white;
+}
