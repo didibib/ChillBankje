@@ -1,2 +1,0 @@
-# Team Chill Bankje
-

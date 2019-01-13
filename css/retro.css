@@ -32,17 +32,16 @@ h3 {
 	color: #00FFFF !important;
 }
 
-a{
+a {
 	font-family: 'Inconsolata';
 	font-size: 18px;
 	font-weight: bold;
 	font-style: italic;
-	text-decoration: none !important; 
-	
+	text-decoration: none !important;
 }
 
 a:hover {
-
+	color: #FF00FF;
 }
 
 p	{
@@ -63,6 +62,7 @@ p	{
   float: left;
   width: 33%;
   min-width: 33% !important;
+	padding-top: 5%;
   height: 100%;
   overflow: hidden;
   color: black;
@@ -80,28 +80,35 @@ p	{
 }
 
 .logo {
-	position: fixed;
+	display: block;
 	padding-top: 5%;
+	padding-left: 5%;
+}
+
+.logo img {
+	width: 100%;
+	height: auto;
+	text-align: right;
 }
 
 #nav {
-	position: fixed;
-	width: 12%;
-	margin-left: 2%;
-	padding-top: 16%;
+	display: block;
+	float: right;
+	height: 100%;
+	width: 40%;
+	padding-right: 4%;
+	margin-top: 4%;
 	list-style-type: none !important;
-}
-
-#nav ul{
-	text-align: center;
+	text-align: right;
 }
 
 #nav li {
+	float: right;
+	display: block;
 	margin-top: 10%;
-	padding: 0;
 	width: 100%;
 	background-color: #F7E71C;
-	height: 120%;
+	text-align: center;
 }
 
 #nav li a{
@@ -109,8 +116,7 @@ p	{
 	width: 100%;
 	margin: 0;
 	padding: 5%;
-	
-	
+	text-decoration: none !important;
 }
 
 #nav li a:hover {
@@ -118,23 +124,9 @@ p	{
 	width: 100%;
 }
 
-.float-left {
-  width: 80%;
-  float: left;
-  margin-bottom: 10%;
+.fixed {
+	position: fixed;
 }
-
-.float-right {
-  width: 80%;
-  float: right;
-  margin-bottom: 10%;
-}
-
-.menu-item {
-
-}
-
-
 
 #main {
   overflow-x: visible;
