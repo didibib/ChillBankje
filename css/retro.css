@@ -62,8 +62,7 @@ p	{
 #header {
   float: left;
   width: 33%;
-  min-width: 33% !important;
-	padding-top: 5%;
+  min-width: 33% !important;	
   height: 100%;
   overflow: hidden;
   color: black;
