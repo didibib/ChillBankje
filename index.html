@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -13,36 +13,38 @@
 
 </head>
   <body>
-    <div id="wrapper">
-      <div id="header">
-
-		<!-- <div id="menu-pattern"></div> -->
-        <div class="fixed">
-          <div class="logo">
-            <img src="pictures/logo.png" alt="team logo">
-          </div>
-          <div id="nav">
-            <ul>
-              <li class="menu-item"><a href=#game>GAME</a></li>
-              <li class="menu-item"><a href=#game>PROJECT</a></li>
-              <li class="menu-item"><a href=#game>DOCUMENTATION</a></li>
-              <li class="menu-item"><a href=#game>TEAM</a></li>
-              <li class="menu-item"><a href=#game>CONTACT</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <main id="main">
+    <div id="container-fluid">
+      <div class="row no-gutters">
+		
+		<div id="header" class="col-md-4" style="float: left; margin-top:5%">
+			<div class="fixed">
+			
+			<div id="logo" style="width: inherit;">
+				<img src="pictures/logo.png" alt="team logo" style="width: 100%; height: 100%">
+			</div>
+			<div id="nav">
+				<ul>
+				<li class="menu-item"><a href=#game>GAME</a></li>
+				<li class="menu-item"><a href=#game>DOCUMENTATION</a></li>
+				<li class="menu-item"><a href=#team>TEAM</a></li>
+				<li class="menu-item"><a href=#contact>CONTACT</a></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+		
+     <div class="col-12 col-md-8" style="float: right">
+	 <main id="main">
 		<h1> FIGHT STREETER </h1>
 
 		<div id="content">
-			<div id="leftmain">
+			<div class="col-12 col-md-4" style="float: left; min-width: 50%;">
 
 			<video width=95% height=100% controls>
 			<source src="testfilm.mp4" type="video/mp4"></video>
 
 			</div>
-			<div id="rightmain">
+			<div class="col-12 col-md-4" style="float: right; min-width: 50%;">
 				<h3> THE GAME</h3>
 				<p>text ignore</p>
 			</div>
@@ -55,13 +57,13 @@
 		<h1> FIGHT STREETER </h1>
 
 		<div id="content">
-			<div id="leftmain">
+			<div class="col-12 col-md-4" style="float: left; min-width: 50%;">
 
 			<video width=95% height=100% controls>
 			<source src="testfilm.mp4" type="video/mp4"></video>
 
 			</div>
-			<div id="rightmain">
+			<div class="col-12 col-md-4" style="float: right; min-width: 50%;">
 				<h3> THE GAME</h3>
 				<p>text ignore</p>
 			</div>
@@ -71,8 +73,20 @@
 			<li> <a href=#game> Download </a>
 		</div>
 
-		<h1> FIGHT STREETER </h1>
+		<h1 id="team"> THE TEAM </h1>
+		<img src="pictures/groepsfoto.jpeg" alt="groepsfoto" width="90%">
+		
+		<h1 id="contact"> CONTACT </h1>
+		<div class="col-12 col-md-4" style="float: left; min-width: 50%;">
+				<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Calisthenics-park%20Uithof%20Utrecht&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+
+		</div>
+		<div class="col-12 col-md-4" style="float: right; min-width: 50%;">
+
+		</div>
+		</div>
       </main>
     </div>
+	</div>
   </body>
 </html>
