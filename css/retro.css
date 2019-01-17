@@ -67,6 +67,7 @@ p	{
 
 .logo {
 	display: block;
+	width: 100%;
 }
 
 #nav {
@@ -97,6 +98,7 @@ p	{
 
 .fixed {
 	position: fixed;
+	
 }
 
 #main {
@@ -126,15 +128,15 @@ p	{
 	background-color: #FFFFFF;
 }
 
-@media (max-width: 768px;) {
+@media (max-width: 853px;) {
 	
 }
 
-@media (min-width:769px) and (max-width:1200px) { a {
+@media (min-width:760px) and (max-width:1200px) { a {
 		font-size: 12px !important;
 }}
 
-@media (max-width: 768px) { 
+@media (max-width: 853px) { 
 	#nav li {
 		margin-left: 5% !important;
 		float: left !important;
