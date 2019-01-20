@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Inconsolata');
 
+@font-face{
+	font-family: 'hellogames';
+	src: 	url('fonts/04b31.woff2'),
+			url('fonts/04b31.ttf'),
+			url('fonts/04b31.woff');
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -21,7 +28,7 @@ html {
 h1 {
 	padding-top: 10%;
 	padding-left: 2%;
-	font-family: '04b31' !important;
+	font-family: 'hellogames' !important;
 	color: #FF00FF !important;
 	font-size: 8*1vw;
 }
