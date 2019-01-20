@@ -117,28 +117,49 @@ p	{
 	overflow-x: hidden;
 }
 
-#button { /*part of the content with a link to an external website, for downloads etc.*/
+.buttonl { /*part of the content with a link to an external website, for downloads etc.*/
 	margin-top: 2% !important;
 	margin-bottom: 2%;
-		list-style-type: none;
-}
-
-#button li a{
-	background-color: #00FFFF;
+	list-style-type: none;
+	min-width: 50%;
+	float:left;
 	text-align: center;
-	padding: 1%;
-	width: 20%;
-	height: 10%;
 }
 
-#button li a:hover{
-	background-color: #FFFFFF;
+.buttonr { /*part of the content with a link to an external website, for downloads etc.*/
+	margin-top: 2% !important;
+	margin-bottom: 2%;
+	list-style-type: none;
+	min-width: 50%;
+	float: right;
+	text-align: center;
 }
+
+.buttonl li a{
+	background-color: #00FFFF; text-align: center; padding: 2% 20%; min-width: 80% !important; height: 10%;
+}
+
+.buttonr li a{
+	background-color: #00FFFF; text-align: center; padding: 2% 20%; min-width: 80% !important; height: 10%;
+}
+
+.buttonl li a:hover {background-color: #FFFFFF;}
+.buttonr li a:hover {background-color: #FFFFFF;}
 
 #quotes {
 	padding-top:10%;
 	text-align: center !important;
 	margin-bottom:2%;
+}
+
+#credits {
+	padding-top:4%;
+	text-align: center !important;
+	margin-bottom:2%;
+}
+
+#downloads {
+	width: 100%;
 }
 
 .people {
