@@ -2,14 +2,14 @@
 
 @font-face{
 	font-family: 'hellogames';
-	src: 	url('fonts/04b31.woff2'),
-			url('fonts/04b31.ttf'),
-			url('fonts/04b31.woff');
+	src: 	url('./css/fonts/04b31.woff2'),
+			url('./css/fonts/04b31.ttf'),
+			url('./css/fonts/04b31.woff');
 }
 
 @font-face{
 	font-family: 'roadrage';
-	src: 	url('fonts/road_rage.otf');
+	src: 	url('./css/fonts/road_rage.otf');
 }
 
 * {
