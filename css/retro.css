@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:700|Source+Sans+Pro|Inconsolata');
 
 @font-face{
 	font-family: 'hellogames';
 	src: 	url('fonts/04b31.woff2'),
 			url('fonts/04b31.ttf'),
 			url('fonts/04b31.woff');
+}
+
+@font-face{
+	font-family: 'roadrage';
+	src: 	url('fonts/road_rage.otf');
 }
 
 * {
@@ -27,10 +32,10 @@ html {
 
 h1 {
 	padding-top: 10%;
-	padding-left: 2%;
-	font-family: 'hellogames' !important;
+	padding-left: 15px;
+	font-family: 'roadrage' !important;
 	color: #FF00FF !important;
-	font-size: 8*1vw;
+	font-size: 80*1vw;
 }
 
 h3 {
@@ -69,7 +74,7 @@ p	{
 }
 
 #header {
-
+	margin-top:5%;
 }
 
 .logo {
@@ -105,7 +110,7 @@ p	{
 
 .fixed {
 	position: fixed;
-	
+
 }
 
 #main {
@@ -167,14 +172,14 @@ p	{
 }
 
 @media (max-width: 853px;) {
-	
+
 }
 
 @media (min-width:760px) and (max-width:1200px) { a {
 		font-size: 12px !important;
 }}
 
-@media (max-width: 853px) { 
+@media (max-width: 853px) {
 	#nav li {
 		margin-left: 5% !important;
 		float: left !important;
@@ -185,11 +190,6 @@ p	{
 	}
 }
 
-
-
 @media (max-width:1200px){	h1 {
 		font-size: 26px !important;
 	}}
-	
-
-
