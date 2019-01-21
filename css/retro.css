@@ -2,9 +2,7 @@
 
 @font-face{
 	font-family: 'hellogames';
-	src: 	url('./css/fonts/04b31.woff2'),
-			url('./css/fonts/04b31.ttf'),
-			url('./css/fonts/04b31.woff');
+	src: 	url('./css/fonts/04B31.otf');
 }
 
 @font-face{
