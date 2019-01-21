@@ -7,7 +7,10 @@
 
 @font-face{
 	font-family: 'roadrage';
-	src: 	url('./css/fonts/road_rage.otf');
+	src: 	url('fonts/road_rage.otf'),
+			url('fonts/roadrage.woff2') format('woff2'),
+			url('fonts/roadrage.woff') format('woff'),
+			url('fonts/roadrage.ttf') format('truetype');
 }
 
 * {
