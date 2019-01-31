@@ -1,4 +1,4 @@
-# TeamChillBankje
+# Team Chill Bankje
 
 We proudly introduce "Fight Streeter", a revolutionizing way to play one-to-one fighting games. In Fight Streeter, we've given the player
 the task to physically perform the actions himself to defeat his enemy. With the motion-tracking technique of the Kinect, we're able
